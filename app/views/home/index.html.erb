@@ -1,0 +1,13 @@
+<h1>Hello World</h1>
+
+<% if @great %>
+  <p>Hallo <%= @name %> </p>
+<% else %>
+  <p>No hallo </p>
+<% end %>
+
+<ul>
+  <% @numbers.each do |number| %>
+    <li><%= number %></li>
+  <% end %>
+</ul>
